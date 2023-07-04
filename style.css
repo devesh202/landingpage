@@ -1,0 +1,94 @@
+nav{
+    margin-top:15px ;
+    display:flex;
+    /* background-color: black; */
+    color:yellow;
+    justify-content: flex-start;
+    height: 5em;
+    position: relative;
+
+
+}
+ul{
+    width: 100%;
+    display:flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.logo{
+    margin-left: 52px;
+    margin-top:15px;
+    
+}
+
+ul li{
+    margin:0 1.3rem;
+    list-style: none;
+    cursor: pointer;
+    font-family: "Red Rose";
+
+}
+.main{
+    display: flex;
+    font-size: 8rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* color:yellow; */
+    padding: 3px 250px;
+    height: 600px;
+    font-family: "Dela Gothic One", cursive;
+    font-style: normal;
+  font-weight: 400;
+  font-size: 104px;
+  line-height: 114px;
+  /* or 110% */
+  color: #ffc233;
+  
+}
+.main::before{
+    content: " ";
+    background-image: url("p1.png") ;
+    filter: brightness(45%);
+    
+    /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+    height: 100%;
+    width: 100%;
+    top:0;
+    position: absolute;
+    z-index:-1;
+    
+}
+
+h1{
+    font-size: 1.0em;
+    text-align: center;
+}
+
+button{
+    padding:15px;
+    background: #ff505f;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    font-weight: bold;
+}
+.btn{
+    padding:20px 50px;
+    
+}
+.navbtn{
+    padding: 12px 40px;
+    margin: 20px;
+}
+
+
+.scroll{
+    display: flex;
+    justify-content: flex-end;
+    margin: bottom 20px;
+    position: relative; 
+    bottom: 150px;
+}
